@@ -26,6 +26,7 @@
     <meta property="og:description" content="Brasil .NET" />
 
     <!-- CSS  -->
+    <link href="css/main.css" rel="stylesheet">
     <link href="min/plugin-min.css" type="text/css" rel="stylesheet">
     <link href="min/custom-min.css" type="text/css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -40,27 +41,12 @@
                 <img class="dotnet" src="img/dotnet.png" />
             </div>
             <h1 class="text_h  header cd-headline letters type">
-                  Brasil .NET
-        </h1>
+                Brasil .NET
+            </h1>
         </div>
     </div>
+    <div id="signup-box">
 
-    <div id="signup-box" >
-        <p style="color:white;">
-            Informe seu email para receber o convite automaticamente:
-            <form id="signup-form" action="#" method="post">
-			    <input name="email" id="email" type="email" placeholder="E-mail">
-			    <input type="submit" value="Entrar">
-			    <span class="message"></span>
-            </form>
-            <script>
-			    var stamplay_appid = "brasildotnet";
-			    var stamplay_webhookid = "invites";
-		    </script>
-            <script src="js/stamplay.min.js"></script>
-            <script src="js/main.js"></script>
-            <link href="css/main.css" rel="stylesheet">
-        </p>
     </div>
     <!--#sobre-->
     <div id="sobre" class="section scrollspy grey lighten-5">
@@ -70,21 +56,30 @@
                     <h4 class="center header"> Sobre </h4>
                     <p class="text_h2">
                         A iniciativa do <span class="brasildotnet">Brasil.NET</span>, surgiu a partir de conversas com várias pessoas da comunidade, o objetivo é organizar uma comunidade sem donos, sem amarras, colaborativa e auto suficiente.
-                        
-                    </p>
-                     <p class="text_h2">
-                     Neste momento o <span class="brasildotnet">Brasil.NET</span> nasce no Slack, o que nos permite conversar sobre algo que amamos, de forma segura e livre. 
-   
-                    </p>
-                   <p class="text_h2">
-                        Qual o rumo que esta comunidade pode tomar? É a própria comunidade que vai decidir. Poderemos nos encontrar presencialmente no futuro? Sim! Ou não, nós decidimos. O que importa é que todos decidem juntos. 
+
                     </p>
                     <p class="text_h2">
-                        Existe espaço para todos, pra quem quer falar de carreira, vagas, cursos, tudo devidamente seguimento em canais no Slack. Você está livre pra conversar somente nas salas técnicas. Temos salas de ASP.NET Core, Roslyn, IoT, arquitetura de software, Xamarin, Javascript, C#, para todos os gostos. 
+                        Neste momento o <span class="brasildotnet">Brasil.NET</span> nasce no Slack, o que nos permite conversar sobre algo que amamos, de forma segura e livre.
+
                     </p>
-                    
+                    <p class="text_h2">
+                        Qual o rumo que esta comunidade pode tomar? É a própria comunidade que vai decidir. Poderemos nos encontrar presencialmente no futuro? Sim! Ou não, nós decidimos. O que importa é que todos decidem juntos.
+                    </p>
+                    <p class="text_h2">
+                        Existe espaço para todos, pra quem quer falar de carreira, vagas, cursos, tudo devidamente seguimento em canais no Slack. Você está livre pra conversar somente nas salas técnicas. Temos salas de ASP.NET Core, Roslyn, IoT, arquitetura de software, Xamarin, Javascript, C#, para todos os gostos.
+                    </p>
+
                     <p class="text_h2">
                         Se você está lendo esse texto, está automaticamente convidado a entrar e participar. Junte-se a nós e ajude a formar juntos o futuro dessa iniciativa. Nos vemos lá.
+                    </p>
+                    <p style="color:white;">
+                        Informe seu email para receber o convite automaticamente:
+                        <form id="signup-form" action="#" method="post">
+                            <input name="email" id="email" type="email" placeholder="E-mail">
+                            <input type="submit" value="Entrar">
+                            <span class="message"></span>
+                        </form>
+
                     </p>
                 </div>
             </div>
@@ -94,12 +89,21 @@
     <footer id="contact" class="page-footer grey darken-4 scrollspy">
         <div class="footer-copyright  grey darken-4">
             <div class="container">
-               2016, Brasil .NET
+                2016, Brasil .NET
             </div>
         </div>
     </footer>
     <!--  Scripts -->
     <script src="min/plugin-min.js"></script>
     <script src="min/custom-min.js"></script>
+
+    <!--stamplay-->
+    <script>
+	var stamplay_appid = "brasildotnet";
+	var stamplay_webhookid = "invites";
+    </script>
+    <script src="js/stamplay.min.js"></script>
+    <script src="js/main.js"></script>
+    <!--/stamplay-->
 </body>
 </html>
